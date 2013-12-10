@@ -1,4 +1,5 @@
 StopHse::Application.routes.draw do
+  get "cards/index"
   devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -55,5 +56,6 @@ StopHse::Application.routes.draw do
   #     resources :products
   #   end
   resources :categories
+  root 'cards#index'
   
 end
