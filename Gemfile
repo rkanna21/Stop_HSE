@@ -49,3 +49,4 @@ gem "jquery-rails"
 gem "rspec-rails", ">= 2.14", group: [:development, :test]
 gem "simple_form"
 gem "teaspoon", group: [:development, :test]
+gem "pry-rails", group: [:development, :test]
